@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: sample-article.html
+keywords: 
+summary: 
+---
+= Page title goes here
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Use this template for articles, topics, whatever you call them. The index.adoc file does not have the correct keywords for an article page and using it as a template can cause publishing problems later on. 
+
+NOTE: Delete this file before initial publishing, as the file will be published even if it's not linked to the sidebar. After you create a few articles you can use them as a starter instead. 
+
+If your articles will be in a content sub-folder, you will need to make two adjustments to the notation shown above:
+
+* `:imagesdir:../media/`
+* `permalink: folder-name/sample-article.html` 

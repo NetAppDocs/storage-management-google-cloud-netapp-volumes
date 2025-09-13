@@ -1,0 +1,14 @@
+indexpage:
+  title: # Unquoted string 
+  lead: # Quoted string
+  summary: # Quoted string 
+  keywords: # Unquoted comma-delimited list of keywords 
+  tiles: 
+    # Tile definition 
+    - title: # Quoted or unquoted string
+      links: 
+        # Link definition
+        - title: # Quoted or unquoted string
+          url: # Path to target
+        # Next link on this tile (title/url pair)
+    # Next tile on this page (title/links)
