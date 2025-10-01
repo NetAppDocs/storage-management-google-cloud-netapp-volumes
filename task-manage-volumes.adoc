@@ -1,0 +1,43 @@
+---
+sidebar: sidebar
+permalink: task-manage-volumes.html
+keywords: google cloud netapp volumes, view volumes
+summary: After you set up your system, you can view your Google Cloud NetApp volumes.
+---
+
+= Manage existing volumes
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can view your existing volumes and any actions you performed on them.
+
+*Required NetApp Console role*
+Organization admin, Folder or project admin, or Google Cloud NetApp Volumes admin role. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles for all services^].
+
+== View a volume
+
+View the details of your volumes, such as their name, count, region, capacity, used capacity, and storage pool.
+
+.Steps
+
+. Click *Enter system* to open the system.
+
+. To view a specific volume in the table, select image:icon_search.png[An icon with three dots.] and enter the volume name.
+
+. To view any labels associated with a volume, in the *Labels* column, select *View*.
+
+== View the audit log
+
+You can view all the actions performed on volumes in the timeline.
+
+.Steps
+
+. At the top right, select *Settings* and then *Timeline*.
+
+.Result
+
+In the *Audit logs* table, you can view any actions performed on your volumes.

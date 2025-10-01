@@ -1,12 +1,44 @@
 settings:
-  name: "Product Name"
+  name: Google Cloud NetApp Volumes
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
-
-sidebar: 
+  rss_page: "whats-new.html"
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+   - title: Google Cloud NetApp Volumes
+     url: /index.html
+   - title: Release notes
+     entries:
+      - title: What's new
+        url: /whats-new.html
+   - title: Get started
+     entries:
+     - title: Learn about Google Cloud NetApp Volumes
+       url: /concept-gcnv.html
+     - title: Getting started workflow
+       url: /task-quick-start.html
+     - title: Set up Google Cloud
+       url: /task-set-up-gcnv.html
+     - title: Add a system
+       url: /task-create-working-env.html
+   - title: Use Google Cloud NetApp Volumes
+     entries:
+        - title: Manage volumes
+          url: /task-manage-volumes.html
+        - title: Remove Google Cloud NetApp Volumes
+          url: /task-remove-working-env.html
+   - title: Knowledge and support
+     entries:
+        - title: Register for support
+          url: /task-support-registration.html
+        - title: Get help
+          url: /task-get-help.html
+   - title: Legal notices
+     url: /legal-notices.html
+product-family:
+  name: Storage Management
+  repo: storage-management-family

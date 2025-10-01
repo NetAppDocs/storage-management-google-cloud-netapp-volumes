@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: task-get-help.html
+keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue
+summary: NetApp provides support for the NetApp Console in a variety of ways. Extensive free self-support options are available 24x7, such as knowledgebase (KB) articles and a community forum. Your support registration includes remote technical support via web ticketing.
+---
+
+= Get help
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+include::https://raw.githubusercontent.com/NetAppDocs/console-family/main/_include/get-help.adoc[]

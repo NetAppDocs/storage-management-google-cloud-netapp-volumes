@@ -1,0 +1,57 @@
+---
+sidebar: sidebar
+permalink: task-create-working-env.html
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients
+summary: Add a Netapp Volumes for Google Cloud system in the NetApp Console to view and manage volumes.
+---
+
+= Add a Google Cloud NetApp Volumes system
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you set up a service account, add a Google Cloud NetApp Volumes system in the NetApp Console so you can view your Google Cloud NetApp Volumes instances.
+
+Cloud volumes for this subscription are displayed in the system.
+
+NOTE: If you have subscriptions and volumes in multiple Google Cloud projects, you need to perform this task for each project.
+
+.Before you begin
+
+You must have the following information available when adding a subscription for each project:
+
+* Service account credentials (JSON private key you downloaded)
+
+* Project name
+
+.Steps
+
+. From the NetApp Console menu, select *Storage* and then *Management*.
+
+. On the Systems page, select *Add System* and select *Google Cloud Platform*.
+
+. Next to *Google Cloud NetApp Volumes*, select *Discover*.
+
+. Provide information about your NetApp Volumes subscription:
+
+.. Enter the system name you want to use.
+.. Copy/paste the JSON private key you downloaded in the previous steps.
+.. Select *Apply credentials*.
+.. Select the name of your Google Cloud project.
+.. Select the region where you want to create the system. The region must be one of the supported regions for Google Cloud NetApp Volumes.
+.. Select *Discover*.
++
+image:screenshot_create_environment.png[A screenshot of adding credentials for a Google Cloud NetApp Volumes subscription.]
+
+.Result
+
+The Console displays your Google Cloud NetApp Volumes system.
+
+image:screenshot_gcnv_environment.png[A screenshot of Google Cloud NetApp Volumes Service system.]
+
+.What's next?
+
+link:task-manage-volumes.html[View your volumes].

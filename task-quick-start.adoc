@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: task-quick-start.html
+keywords: set up google cloud netapp volumes, quick start
+summary: Get started with Google Cloud NetApp Volumes by setting up Google Cloud and then creating a system.
+---
+
+= Getting started workflow
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Get started with Google Cloud NetApp Volumes by setting up Google Cloud, and then creating a system.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-gcnv.html[Set up Google Cloud NetApp Volumes]
+
+[role="quick-margin-para"]
+From Google, create a service account.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:task-create-working-env.html[Add a system]
+
+[role="quick-margin-para"]
+From the NetApp Console, click *Add System* and then *Google Cloud Platform* and then *Google Cloud NetApp Volumes* and then *Discover*. Provide the details about the service account and Google Cloud project.
