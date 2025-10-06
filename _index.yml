@@ -1,14 +1,26 @@
+# Start snippet: landing page
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: Google Cloud NetApp Volumes documentation
+  lead: Google Cloud NetApp Volumes enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Google with no need to refactor for the cloud. This documentation describes how to set up and manage Google Cloud NetApp Volumes by using the NetApp Console.
+  summary: Google Cloud NetApp Volumes enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Google with no need to refactor for the cloud. This documentation describes how to set up and manage Google Cloud NetApp Volumes by using the NetApp Console.
+  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
+  tiles:
+    - title: Get started
+      links:
+      - title: Learn about Google Cloud NetApp Volumes
+        url: concept-gcnv.html
+      - title: Quick start
+        url: task-quick-start.html
+    - title: Use Google Cloud NetApp Volumes
+      links:
+        - title: Manage volumes
+          url: task-manage-volumes.html
+    - title: Blogs & community
+      links:
+       - title: NetApp Community
+         url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+       - title: NetApp Console blog
+         url: https://cloud.netapp.com/blog
+       - title: Cloud webinars
+         url: https://cloud.netapp.com/events
+          # End snippet
