@@ -15,15 +15,14 @@ summary: The NetApp Console needs access to the Google Cloud NetApp Volumes API 
 [.lead]
 The NetApp Console needs the right permissions through a Google Cloud service account.
 
-== Set up a service account
-
-Complete the following tasks so that the NetApp Console can access your Google Cloud project:
+Complete the following tasks so that the NetApp Console can access your Google Cloud project.
 
 * If you do not already have an existing service account, create a new one.
 * Add the service account member to your project and assign it specific roles (permissions).
 * Create and download a key pair for the service account that is used to authenticate to Google.
+* Grant the IAM role in the shared project.
 
-.Steps
+== Set up a service account
 
 . In the Google Cloud console, https://console.cloud.google.com/iam-admin/serviceaccounts[go to the Service accounts page^].
 
@@ -38,7 +37,21 @@ The Google Cloud Console generates a service account ID based on this name. Edit
 
 .. To set access controls now, click *Create* and then *DONE* from the bottom of the page, and continue to the next step.
 
-. From the _IAM page_ click *Add* and fill out the fields in the _Add Members_ page:
+== Create and download a key pair
+
+. In the https://console.cloud.google.com/iam-admin/serviceaccounts[Service accounts page^], find and click the Service Account name.
+
+. From the _Service account details_ page, click *Add key* and then *Create new key*.
+
+. Select *JSON* as the key type and click *Create*.
++
+By clicking *Create* your new public/private key pair is generated and downloaded to your system. It serves as the only copy of the private key. Store this file securely because it can be used to authenticate as your service account.
+
+== Add the service account member
+
+. Log into the https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html[NetApp Console].
+. Select *Administration* and then *Identity and access*.
+. Click *Add* and fill out the fields in the _Add Members_ page:
 
 .. In the New Members field, enter the full service account ID.
 +
@@ -51,11 +64,15 @@ OR
 
 .. Click *Save*.
 
-. Click the Service Account name, and then from the _Service account details_ page, click *Add key* and then *Create new key*.
+== Shared VPC 
 
-. Select *JSON* as the key type and click *Create*.
-+
-By clicking *Create* your new public/private key pair is generated and downloaded to your system. It serves as the only copy of the private key. Store this file securely because it can be used to authenticate as your service account.
+In each additional GCP project that will use the service account, do the following:
+
+. In the _IAM page_, select the Shared VPC host project from the project dropdown menu. 
+. Click *Add Principal*. 
+. In the New principals field, enter the email address of your service account. 
+. From the Select a role dropdown, choose the Google Cloud NetApp Volumes admin role.
+. Click *Save*.
 
 For detailed steps, refer to Google Cloud documentation:
 
