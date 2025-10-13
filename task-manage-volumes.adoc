@@ -16,7 +16,7 @@ summary: After you set up your system, you can view your Google Cloud NetApp vol
 You can view your existing volumes and any actions you performed on them.
 
 *Required NetApp Console role*
-Organization admin, Folder or project admin, or Google Cloud NetApp Volumes admin role. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles for all services^].
+Organization admin, folder or project admin, or Google Cloud NetApp Volumes admin role. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles for all services^].
 
 == View a volume
 
