@@ -43,8 +43,6 @@ You must have the following information available when adding a subscription for
 .. Select the name of your Google Cloud project.
 .. Select the region where you want to create the system. The region must be one of the supported regions for Google Cloud NetApp Volumes.
 .. Select *Discover*.
-+
-image:screenshot_create_environment.png[A screenshot of adding credentials for a Google Cloud NetApp Volumes subscription.]
 
 .Result
 
