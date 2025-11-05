@@ -15,14 +15,10 @@ summary: Learn what's new with Google Cloud NetApp Volumes support in NetApp Con
 [.lead]
 Learn what's new with Google Cloud NetApp Volumes support in NetApp Console.
 
-// tag::whats-new[]
 == 06 October 2025
 
 include::_whatsnew/2025-10-06.adoc[]
-// end::whats-new[]
 
-// tag::whats-new[]
 == 21 July 2025
 
 include::_whatsnew/2025-07-14.adoc[]
-// end::whats-new[]
