@@ -23,7 +23,7 @@ NOTE: If you have subscriptions and volumes in multiple Google Cloud projects, y
 
 You must have the following information available when adding a subscription for each project:
 
-* Service account credentials (JSON private key you downloaded)
+* Google service account email address
 
 * Project name
 
@@ -38,10 +38,11 @@ You must have the following information available when adding a subscription for
 . Provide information about your NetApp Volumes subscription:
 
 .. Enter the system name you want to use.
-.. Copy/paste the JSON private key you downloaded in the previous steps.
-.. Select *Apply credentials*.
+.. Paste the associated Google service account email address; credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Select *Apply credentials* to retrieve the project name and region.
 .. Select the name of your Google Cloud project.
-.. Select the region where you want to create the system. The region must be one of the supported regions for Google Cloud NetApp Volumes.
+.. From Project name, select the name of your Google Cloud project.
+.. From Region, select the region where you want to create the system. The region must be one of the supported regions for Google Cloud NetApp Volumes.
 .. Select *Discover*.
 
 .Result
