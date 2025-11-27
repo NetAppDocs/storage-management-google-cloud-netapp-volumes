@@ -27,7 +27,7 @@ Complete the following tasks so that the NetApp Console can access your Google C
 
 . Click *Select a project*, choose your project, and click *Open*.
 
-. (Optional) To create a service account, do the following:
+. To create a service account, do the following:
 .. Click *Create service account*.
 
 .. Enter the service account name (friendly display name) and description.
@@ -35,10 +35,12 @@ Complete the following tasks so that the NetApp Console can access your Google C
 The Google Cloud Console generates a service account ID based on this name. Edit the ID if necessary - you cannot change the ID later.
 
 .. Click *Create and continue*.
-.. From the Role list, select the Google Cloud NetApp Volumes admin or Google Cloud NetApp viewer role. 
+.. From the Role list, select the *Google Cloud NetApp Volumes admin* or *Google Cloud NetApp viewer* role. 
 .. Select *Continue*.
-.. Grant specific access to this service account: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. For details, see https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt[Create short-lived credentials for a service account^].
+.. Grant specific access to this service account: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. For details, see https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt[Create a self-signed JSON Web Token (JWT)^].
 .. Click *DONE* at the bottom of the page, and continue to the next step.
+
+== Grant access for impersonation
 
 == Shared VPC 
 
@@ -47,7 +49,7 @@ In each additional GCP project that will use the service account, do the followi
 . In the _IAM page_, select the Shared VPC host project from the project dropdown menu. 
 . Click *Add Principal*. 
 . In the New principals field, enter the email address of your service account. 
-. From the Select a role dropdown, choose the Google Cloud NetApp Volumes admin role.
+. From the Select a role dropdown, choose the *Google Cloud NetApp Volumes admin* role.
 . Click *Save*.
 
 For detailed steps, refer to Google Cloud documentation:
