@@ -29,6 +29,7 @@ https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles
 .. From the *Role* drop down, select a role that provides the member with permissions for the resources that are associated with the folder or project that you selected.
 +
 *Important:* You must add one or both of these roles:
+
 * _Google Cloud NetApp Volumes admin_
 OR
 * _Google Cloud NetApp Volumes viewer_

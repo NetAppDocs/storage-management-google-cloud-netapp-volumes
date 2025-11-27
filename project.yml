@@ -32,7 +32,7 @@ sidebar:
      entries:
         - title: Manage volumes
           url: /task-manage-volumes.html
-        - title: Remove Google Cloud NetApp Volumes
+        - title: Remove volumes
           url: /task-remove-working-env.html
    - title: Knowledge and support
      entries:
