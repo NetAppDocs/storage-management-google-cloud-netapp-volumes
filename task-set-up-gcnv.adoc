@@ -60,6 +60,7 @@ For detailed steps, refer to Google Cloud documentation:
 
 == Troubleshooting
 If you encounter an error, the *iam.disableCrossProjectServiceAccountUsage* policy might be enforced. To fix this, do the following:
+
 . In the Google Cloud console, go to the https://console.cloud.google.com/iam-admin/orgpolicies[Organization policies page^].
 . Find the *Disable cross-project service account usage* policy and disable it.
 
