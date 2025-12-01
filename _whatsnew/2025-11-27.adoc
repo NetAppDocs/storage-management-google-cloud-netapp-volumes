@@ -1,0 +1,5 @@
+=== Google Cloud Platform credentials changes
+
+As customers setup and authorize more Google Cloud NetApp Volumes systems, how credentials are managed have changed.
+
+NetApp Volumes systems credentials are now stored on a Google cloud backend, such as Cloud Key Management service or similar, and service account impersonation credentials are used when creating a new system. 

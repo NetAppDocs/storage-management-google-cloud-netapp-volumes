@@ -22,15 +22,17 @@ sidebar:
        url: /concept-gcnv.html
      - title: Getting started workflow
        url: /task-quick-start.html
-     - title: Set up Google Cloud
+     - title: Set up Google Cloud NetApp Volumes
        url: /task-set-up-gcnv.html
+     - title: Assign Google Cloud NetApp Volumes roles
+       url: /task-add-roles.html
      - title: Add a system
        url: /task-create-working-env.html
    - title: Use Google Cloud NetApp Volumes
      entries:
         - title: Manage volumes
           url: /task-manage-volumes.html
-        - title: Remove Google Cloud NetApp Volumes
+        - title: Remove volumes
           url: /task-remove-working-env.html
    - title: Knowledge and support
      entries:
