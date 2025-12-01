@@ -19,6 +19,8 @@ NetApp Volumes helps to accelerate deployment times, manage your workloads and a
 
 NOTE: To start working with Google Cloud NetApp Volumes, you must have the appropriate permissions and the Google Cloud NetApp Volumes admin or Google Cloud NetApp viewer role assigned to you. link:task-add-roles.html[Assign access roles for NetApp Volumes^].
 
+image:role_gcnv.png[A screenshot of the Google Cloud NetApp Volumes role.]
+
 == Features
 
 * Runs enterprise apps faster and more efficiently.
