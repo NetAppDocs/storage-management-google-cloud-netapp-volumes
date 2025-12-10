@@ -38,6 +38,8 @@ The Google Cloud Console generates a service account ID based on this name. Edit
 .. From the Role list, select the *Google Cloud NetApp Volumes admin* or *Google Cloud NetApp viewer* role. 
 .. Select *Continue*.
 .. Grant impersonation access to this service account: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. For details, see https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt[Create a self-signed JSON Web Token (JWT)^].
++
+The service account owned by NetApp is used to request a short-lived access token that lets you act as that service account without needing access to its private key.
 .. Click *DONE* at the bottom of the page, and continue to the next step.
 
 == Shared VPC 
