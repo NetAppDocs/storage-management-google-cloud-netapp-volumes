@@ -1,0 +1,4 @@
+---
+permalink: task-remove-working-env.html
+redirect: storage-management-google-cloud-netapp-volumes/task-remove-system.html
+---
