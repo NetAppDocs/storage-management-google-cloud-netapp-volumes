@@ -16,7 +16,7 @@ indexpage:
         - title: Manage volumes
           url: task-manage-volumes.html
         - title: Remove volumes
-          url: task-remove-working-env.html
+          url: task-remove-system.html
     - title: Blogs & community
       links:
         - title: NetApp Console
