@@ -25,7 +25,7 @@ From Google, create a service account.
 [role="quick-margin-para"]
 From the NetApp Console, assign the correct roles to members.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] link:task-create-working-env.html[Add a system]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] link:task-create-system.html[Add a system]
 
 [role="quick-margin-para"]
 From the NetApp Console, click *Add System* and then *Google Cloud Platform* and then *Google Cloud NetApp Volumes* and then *Discover*. Provide the details about the service account and Google Cloud project.
