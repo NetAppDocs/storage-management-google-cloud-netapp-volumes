@@ -15,9 +15,9 @@ summary: The NetApp Console needs access to the Google Cloud NetApp Volumes API 
 [.lead]
 The NetApp Console needs the right permissions through a Google Cloud service account.
 
-Complete the following tasks so that the NetApp Console can access your Google Cloud project.
+Complete the following tasks so that NetApp Console can access your Google Cloud project.
 
-NOTE: Throughout this procedure, you can use either the Google Cloud console or the gcloud CLI. If you want to use the gcloud CLI, link:https://cloud.google.com/sdk/docs/install-sdk[install the Google Cloud CLI^] first.
+NOTE: You can use the Google Cloud console or the gcloud CLI for these tasks. To use the gcloud CLI, you must have link:https://cloud.google.com/sdk/docs/install-sdk[installed the Google Cloud CLI^] first.
 
 * If you do not already have an existing service account, create a new one.
 * Grant access for impersonation.
