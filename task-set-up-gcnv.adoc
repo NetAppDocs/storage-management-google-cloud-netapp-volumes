@@ -17,6 +17,8 @@ The NetApp Console needs the right permissions through a Google Cloud service ac
 
 Complete the following tasks so that the NetApp Console can access your Google Cloud project.
 
+NOTE: Throughout this procedure, you can use either the Google Cloud console or the gcloud CLI. If you want to use the gcloud CLI, link:https://cloud.google.com/sdk/docs/install-sdk[install the Google Cloud CLI^] first.
+
 * If you do not already have an existing service account, create a new one.
 * Grant access for impersonation.
 * Grant the IAM role in the shared project.
