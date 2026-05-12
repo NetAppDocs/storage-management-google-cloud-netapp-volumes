@@ -36,6 +36,15 @@ The Google Cloud Console generates a service account ID based on this name. Edit
 
 .. Click *Create and continue*.
 .. From the Role list, select the *Google Cloud NetApp Volumes admin* or *Google Cloud NetApp viewer* role. 
++
+To assign the *Google Cloud NetApp Volumes admin* role by using the Google Cloud CLI, run:
++
+[source,bash]
+----
+gcloud projects add-iam-policy-binding PROJECT_ID \
+  --member="serviceAccount:SERVICE_ACCOUNT_EMAIL" \
+  --role="roles/netapp.admin"
+----
 .. Select *Continue*.
 .. Grant impersonation access to this service account: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. For details, see https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt[Create a self-signed JSON Web Token (JWT)^].
 +
