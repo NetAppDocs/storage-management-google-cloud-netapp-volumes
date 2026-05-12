@@ -45,7 +45,7 @@ gcloud projects add-iam-policy-binding <PROJECT_ID> \
   --member="serviceAccount:<SERVICE_ACCOUNT_EMAIL>" \
   --role="roles/netapp.admin"
 ----
-Replace `<PROJECT_ID>` with your Google Cloud project ID and `<SERVICE_ACCOUNT_EMAIL>` with your service account email.
+Replace +<PROJECT_ID>+ with your Google Cloud project ID and +<SERVICE_ACCOUNT_EMAIL>+ with your service account email.
 .. Select *Continue*.
 .. Grant impersonation access to this service account: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. For details, see https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt[Create a self-signed JSON Web Token (JWT)^].
 +
