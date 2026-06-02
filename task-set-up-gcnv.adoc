@@ -25,6 +25,8 @@ NOTE: You can use the Google Cloud console or the gcloud CLI for these tasks. To
 
 == Set up a service account
 
+Note: Google Cloud project permissions changes might take a couple of minutes to take effect.
+
 . In the Google Cloud console, https://console.cloud.google.com/iam-admin/serviceaccounts[go to the Service accounts page^].
 
 . Click *Select a project*, choose your project, and click *Open*.
@@ -61,8 +63,6 @@ gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="ser
 NOTE: For staging environments, use `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com` instead of the production service account. Replace the `--member` parameter value in the command above with `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`.
 
 .. Click *DONE* at the bottom of the page, and continue to the next step.
-
-Google Cloud project permissions changes will take effect after a couple of minutes.
 
 == Shared VPC 
 
