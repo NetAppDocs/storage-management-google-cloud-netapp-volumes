@@ -37,7 +37,7 @@ NOTE: You can use the Google Cloud console or the gcloud CLI for these tasks. To
 The Google Cloud Console generates a service account ID based on this name. Edit the ID if necessary - you cannot change the ID later.
 
 .. Click *Create and continue*.
-.. From the Role list, select the *Google Cloud NetApp Volumes admin* or *Google Cloud NetApp viewer* role. 
+.. From the Role list, select the *Google Cloud NetApp Volumes Admin* or *Google Cloud NetApp Volumes Viewer* role. 
 .. Select *Continue*.
 +
 Alternatively, you can assign the role using the gcloud CLI:
@@ -57,12 +57,16 @@ Alternatively, you can grant impersonation access using the gcloud CLI:
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
++
+NOTE: For staging environments, use `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com` instead of the production service account. Replace the `--member` parameter value in the command above with `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`.
 
 .. Click *DONE* at the bottom of the page, and continue to the next step.
 
+NOTE: Google Cloud project permissions changes will take effect after a couple of minutes.
+
 == Shared VPC 
 
-In each additional GCP project that will use the service account, do the following:
+In each additional Google Cloud project that will use the service account, do the following:
 
 . In the _IAM page_, select the Shared VPC host project from the project dropdown menu. 
 . Click *Add Principal*. 
