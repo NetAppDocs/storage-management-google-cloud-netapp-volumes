@@ -25,7 +25,7 @@ NOTE: You can use the Google Cloud console or the gcloud CLI for these tasks. To
 
 == Set up a service account
 
-Note: Google Cloud project permissions changes might take a couple of minutes to take effect.
+NOTE: Google Cloud project permissions changes might take a couple of minutes to take effect.
 
 . In the Google Cloud console, https://console.cloud.google.com/iam-admin/serviceaccounts[go to the Service accounts page^].
 
