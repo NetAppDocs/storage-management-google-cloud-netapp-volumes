@@ -62,7 +62,7 @@ NOTE: For staging environments, use `credentials-sa@wf-staging-netapp.iam.gservi
 
 .. Click *DONE* at the bottom of the page, and continue to the next step.
 
-NOTE: Google Cloud project permissions changes will take effect after a couple of minutes.
+Google Cloud project permissions changes will take effect after a couple of minutes.
 
 == Shared VPC 
 
