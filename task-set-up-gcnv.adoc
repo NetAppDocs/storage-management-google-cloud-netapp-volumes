@@ -59,8 +59,6 @@ Alternatively, you can grant impersonation access using the gcloud CLI:
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
-+
-NOTE: For staging environments, use `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com` instead of the production service account. Replace the `--member` parameter value in the command above with `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`.
 
 .. Click *DONE* at the bottom of the page, and continue to the next step.
 
