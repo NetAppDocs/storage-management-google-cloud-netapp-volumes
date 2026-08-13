@@ -29,7 +29,7 @@ It covers required Google Cloud identity setup, NetApp Console role assignment, 
 **Naming conventions and terminology:**
 - Use the product name *Google Cloud NetApp Volumes*; the repository also uses *GCNV* as shorthand in metadata and keywords.
 - Use *NetApp Console* for the management UI terms, including navigation labels such as *Storage*, *Management*, *Add System*, and *Discover*.
-- Role names are specific and case-sensitive in docs context: *Google Cloud NetApp Volumes admin* and *Google Cloud NetApp Volumes viewer*.
+- Role names used in tasks are *Google Cloud NetApp Volumes admin* and *Google Cloud NetApp Volumes viewer* (some existing content may omit “Volumes” in the viewer role name; prefer the full names above).
 - Google identity terms used in tasks include *service account*, *IAM policy binding*, *service account impersonation*, *project name*, *region*, and *Shared VPC host project*.
 
 ### Typical user workflows
