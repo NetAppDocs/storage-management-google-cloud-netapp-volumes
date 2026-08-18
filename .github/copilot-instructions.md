@@ -7,7 +7,6 @@ This repository documents how to discover, view, and remove *Google Cloud NetApp
 It covers required Google Cloud identity setup, NetApp Console role assignment, and system-level management workflows for Google Cloud projects and regions.
 
 ### Repository structure
-- `./` – Primary AsciiDoc pages for concepts, setup, role assignment, system discovery, volume management, support, and legal notices.
 - `_whatsnew/` – Date-based release-note include files referenced by `whats-new.adoc`.
 - `store-redirects/` – Redirect-only AsciiDoc stubs mapping retired page permalinks to current task pages.
 - `media/` – UI screenshots and icons used by task and concept pages.
@@ -27,7 +26,7 @@ It covers required Google Cloud identity setup, NetApp Console role assignment, 
 - *Timeline/Audit logs* in NetApp Console show actions performed on managed volumes.
 
 **Naming conventions and terminology:**
-- Use the product name *Google Cloud NetApp Volumes*; the repository also uses *GCNV* as shorthand in metadata and keywords.
+- Use the product name *Google Cloud NetApp Volumes*; the repository also uses *GCNV* as shorthand.
 - Use *NetApp Console* for the management UI terms, including navigation labels such as *Storage*, *Management*, *Add System*, and *Discover*.
 - Role names used in tasks are *Google Cloud NetApp Volumes admin* and *Google Cloud NetApp Volumes viewer* (some existing content may omit “Volumes” in the viewer role name; prefer the full names above).
 - Google identity terms used in tasks include *service account*, *IAM policy binding*, *service account impersonation*, *project name*, *region*, and *Shared VPC host project*.
