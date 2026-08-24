@@ -5,7 +5,7 @@ keywords: support registration, register for support, support, nss account, add 
 summary: Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to the NetApp Console and then register for support.
 ---
 
-= Register for support
+= Register for support with Google Cloud NetApp Volumes
 :icons: font
 :imagesdir: ./media/
 
