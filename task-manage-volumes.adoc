@@ -5,7 +5,7 @@ keywords: google cloud netapp volumes, view volumes
 summary: After you set up your system, you can view your Google Cloud NetApp volumes.
 ---
 
-= Manage existing volumes
+= Manage volumes in Google Cloud NetApp Volumes
 :hardbreaks:
 :nofooter:
 :icons: font
