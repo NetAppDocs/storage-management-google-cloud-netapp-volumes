@@ -15,7 +15,7 @@ summary: The NetApp Console needs the correct roles assigned to members.
 [.lead]
 You must assign the correct roles to members in the NetApp Console to start working with Google Cloud NetApp Volumes. For details, see link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles for all services^].
 
-== Assign roles to the service account member
+== Assign roles to NetApp Console users
 
 . Log into the https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html[NetApp Console^].
 . Select *Administration* and then *Identity and access*.
