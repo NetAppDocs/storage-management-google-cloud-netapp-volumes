@@ -18,7 +18,7 @@ You must assign the correct roles to members in the NetApp Console to start work
 == Assign roles to NetApp Console users
 
 . Log into the https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html[NetApp Console^].
-. Select *Administration* and then *Identity and access*.
+. Select *Administration*, *Identity and access*, and then *Members*.
 . Select the actions menu image:screenshot_gallery_options.gif[An icon with three dots.] next to the member that you want to assign a role and select *Add a role*.
 . To add a role, complete the steps in the dialog box:
 .. Select folder or project: Choose the level of your resource hierarchy that the member should have permissions for.
