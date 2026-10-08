@@ -1,1 +1,0 @@
-=== What's new in Google Cloud NetApp Volumes - September 27, 2026

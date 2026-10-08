@@ -21,7 +21,7 @@ Get started with Google Cloud NetApp Volumes by assigning your NetApp Console ro
 From the NetApp Console, assign the correct roles to members.
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:https://docs.netapp.com/us-en/data-services-workloads/add-credentials-gcnv.html[Add credentials]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/add-credentials.html[Add credentials]
 
 [role="quick-margin-para"]
 In the NetApp Console, add Google Cloud NetApp Volumes credentials.
