@@ -5,7 +5,7 @@ keywords: what's new, features, new, release notes, bugs, limitations, known iss
 summary: Learn what's new with Google Cloud NetApp Volumes support in NetApp Console.
 ---
 
-= What's new
+= What's new with Google Cloud NetApp Volumes
 :hardbreaks:
 :nofooter:
 :icons: font

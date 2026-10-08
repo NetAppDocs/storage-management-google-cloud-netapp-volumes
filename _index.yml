@@ -9,7 +9,7 @@ indexpage:
       links:
       - title: Learn about Google Cloud NetApp Volumes
         url: concept-gcnv.html
-      - title: Quick start
+      - title: Quick start for Google Cloud NetApp Volumes
         url: task-quick-start.html
     - title: Use Google Cloud NetApp Volumes
       links:

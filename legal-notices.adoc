@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Legal notices
+= Legal notices for Google Cloud NetApp Volumes
 :icons: font
 :imagesdir: ./media/
 

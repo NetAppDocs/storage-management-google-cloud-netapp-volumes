@@ -20,7 +20,7 @@ sidebar:
      entries:
      - title: Learn about Google Cloud NetApp Volumes
        url: /concept-gcnv.html
-     - title: Getting started workflow
+     - title: Quick start for Google Cloud NetApp Volumes
        url: /task-quick-start.html
      - title: Set up Google Cloud NetApp Volumes
        url: /task-set-up-gcnv.html
